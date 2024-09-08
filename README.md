@@ -99,10 +99,11 @@ docker image push eon01/nginx localhost:5000/myadmin/nginx
 
 ```
 docker container run --name infinite -it -p 3000:80 -v ${PWD}:/data ubuntu:latest
+```
+##Создание контейнера
 
-## Создание контейнера
-
-```docker container create -t -i eon01/infinite --name infinite
+```
+docker container create -t -i eon01/infinite --name infinite
 ```
 
 ## Запуск контейнера
