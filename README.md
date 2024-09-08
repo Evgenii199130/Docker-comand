@@ -193,7 +193,6 @@ docker container ls
 ```
 
 ```
-```
 docker container ls -a
 ```
 
@@ -522,7 +521,7 @@ docker service ls
 
 ```
 docker node ls
-
+```
 ## Создание сервиса
 
 ```
