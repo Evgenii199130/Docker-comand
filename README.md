@@ -102,8 +102,7 @@ docker container run --name infinite -it -p 3000:80 -v ${PWD}:/data ubuntu:lates
 
 ## Создание контейнера
 
-```
-docker container create -t -i eon01/infinite --name infinite
+```docker container create -t -i eon01/infinite --name infinite
 ```
 
 ## Запуск контейнера
